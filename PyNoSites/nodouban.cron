@@ -1,0 +1,17 @@
+0 6 * * * python /var/root/nodouban.py lock
+0 7 * * * python /var/root/nodouban.py lock
+0 9  * * * python /var/root/nodouban.py lock
+0 10  * * * python /var/root/nodouban.py lock
+0 11  * * * python /var/root/nodouban.py unlock
+01 11  * * * python /var/root/nodouban.py unlock
+0 12  * * * python /var/root/nodouban.py lock
+5 12  * * * python /var/root/nodouban.py lock
+0 15  * * * python /var/root/nodouban.py lock
+0 18  * * * python /var/root/nodouban.py lock
+0 21  * * * python /var/root/nodouban.py lock
+0 22  * * * python /var/root/nodouban.py unlock
+01 22  * * * python /var/root/nodouban.py unlock
+05 22  * * * python /var/root/nodouban.py unlock
+20 22  * * * python /var/root/nodouban.py unlock
+0 23  * * * python /var/root/nodouban.py lock
+5 23  * * * python /var/root/nodouban.py lock
